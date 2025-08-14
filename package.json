@@ -1,0 +1,35 @@
+{
+  "name": "Columbina",
+  "version": "1.0.0",
+  "description": "A powerful Telegraf bot starter kit with a WhatsApp-like development style.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "SkyWalker",
+  "license": "MI",
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "*",
+    "acorn": "^8.15.0",
+    "axios": "^1.11.0",
+    "chalk": "^5.3.0",
+    "cheerio": "1.0.0-rc.12",
+    "chokidar": "4.0.3",
+    "file-type": "^21.0.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "form-data": "^4.0.0",
+    "fs-extra": "^11.3.1",
+    "mime-types": "^3.0.1",
+    "node-cache": "^5.1.2",
+    "sharp": "^0.32.4",
+    "syntax-error": "^1.4.0",
+    "telegraf": "^4.16.3",
+    "telegraf-session-local": "^2.1.1",
+    "yt-search": "^2.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
