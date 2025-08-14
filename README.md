@@ -31,7 +31,7 @@ Columbina-Base-telegram is a powerful and modular boilerplate designed to accele
 |--------------------------|-----------------------------------------------------------------------------|
 | **Plugin Architecture**  | Dynamically add new functionality by creating JavaScript files in `/plugins`. |
 | **Advanced Client Wrapper** | High-level abstractions (`conn.sendMessage`, `m.reply`) for simplified message and media sending. |
-| **Smart Context Helpers** | Properties like `m.target`, `m.quoted`, and `m.isAdmin` for cleaner, intuitive plugin code. |
+| **Smart Context Helpers** | Properties like `m.chat.id`, `m.quoted`, and `message_id` for cleaner, intuitive plugin code. |
 | **State Management**     | Built-in session middleware for interactive commands and JSON-based data persistence. |
 | **High Performance**     | In-memory caching (node-cache) for faster data access and API responses.    |
 | **Comprehensive Built-in Features** | Includes generative, group managemen, and dozens of ready-to-use utilities. |
