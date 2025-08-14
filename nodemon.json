@@ -1,0 +1,5 @@
+{
+  "delay": 1500,
+  "watch": ["plugins", "handler.js", "main.js"],
+  "ext": ["js"]
+}
