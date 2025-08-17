@@ -53,12 +53,10 @@ async function resolveFileSource(file) {
 export function attachHelpersToContext(conn) {
     return (ctx, next) => {
         ctx.conn = conn;
-
-      
         Object.defineProperties(ctx, {
             sender: { get: () => ctx.from, configurable: true },
             chatId: { get: () => ctx.chat?.id, configurable: true },
-            messageId: { get: () => ctx.message?.message_id || ctx.update.callback_query?.message?.message_id, configurable: true },
+            messageId: { get: () => ctx.message?.id || ctx.update.callback_query?.message?.id, configurable: true },
             isGroup: { get: () => ['group', 'supergroup'].includes(ctx.chat?.type), configurable: true },
             quoted: { get: () => ctx.message?.reply_to_message, configurable: true },
             target: {
@@ -122,7 +120,7 @@ export function createClient(conn) {
      */
     conn.sendMessage = async (chatId, content, options = {}) => {
         let extra = { parse_mode: 'Markdown', ...options };
-        if (options.quoted) extra.reply_parameters = { message_id: options.quoted.message_id };
+        if (options.quoted) extra.reply_parameters = { message_id: options.quoted.id };
         delete extra.quoted;
 
         if (typeof content === 'string') {
