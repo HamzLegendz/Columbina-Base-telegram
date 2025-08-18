@@ -1,9 +1,10 @@
 // URL Thumbnail Global untuk Menu
 global.thumb = 'https://cdn.ypnk.biz.id/yp/xzyy1549.jpg';
 // url telegram owner nya
-global.tme = 'https://t.me/skyvoidwalker'
+global.tme = 'https://t.me/skyvoidwalker';
 // Token Bot dari @BotFather
-global.bottoken = '-';
+// config.js
+global.bottoken = process.env.BOT_TOKEN || '-';
 
 // Nama Bot dll
 global.botname = 'Columbina';
