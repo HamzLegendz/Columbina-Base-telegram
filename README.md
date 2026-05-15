@@ -1,6 +1,6 @@
 <div align="center">
   <a href="https://github.com/HamzLegendz/Columbina-Base-telegram">
-    <img src="https://cdn.ypnk.biz.id/yp/a64loqf4.jpg" alt="Columbina-Base" width="600">
+    <img src="https://o.uguu.se/lHpqvRgK.jpg" alt="Columbina-Base" width="600">
   </a>
   <h1>Columbina-Base-telegram</h1>
   <p>A modular and advanced boilerplate plugins Esm for building multifunctional Telegram bots using Node.js and Telegraf.</p>
