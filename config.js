@@ -8,7 +8,7 @@ global.bottoken = process.env.BOT_TOKEN || '-';
 
 // Nama Bot dll
 global.botname = 'Columbina';
-global.botVersion = '1.0.0';
+global.botVersion = '1.0.1';
 global.botMode = 'public';
 global.dfail = (type, m) => {
     const messages = {
