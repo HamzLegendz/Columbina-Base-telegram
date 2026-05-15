@@ -235,15 +235,6 @@ Ingin ikut berkontribusi? Silakan buat **Pull Request** atau buka **Issue** untu
 
 <table>
   <tr>
-    <td align="center" width="160" style="padding:12px;border:1px solid #e1e4e8;">
-      <a href="https://github.com/FeliciaLonely">
-        <img src="https://avatars.githubusercontent.com/FeliciaLonely?s=120" width="96" height="96" alt="FeliciaLonely">
-        <br><sub><b>FeliciaLonely</b></sub>
-      </a>
-      <br>
-      <a href="https://github.com/FeliciaLonely?tab=followers">
-        <img src="https://img.shields.io/github/followers/FeliciaLonely?label=Follow&style=social" alt="Follow FeliciaLonely">
-      </a>
     </td>
     <td align="center" width="160" style="padding:12px;border:1px solid #e1e4e8;">
       <a href="https://github.com/HamzLegendz">
