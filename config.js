@@ -32,5 +32,5 @@ global.prefix = '/';
 global.owner = {
     name: 'SkyWalker',
     // nama dan ID Telegram owner
-    id: 6861815787 
+    id: 392836663 
 };
