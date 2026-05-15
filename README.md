@@ -7,7 +7,7 @@
 </div>
 
 <p align="center">
-  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-v18.x-339933?style=for-the-badge&logo=node.js" alt="Node.js Version"></a>
+  <a href="https://nodejs.org"><img src="https://img.shields.io/badge/Node.js-v20.x-339933?style=for-the-badge&logo=node.js" alt="Node.js Version"></a>
   <a href="https://telegraf.js.org"><img src="https://img.shields.io/badge/Telegraf-v4.x-2AABEE?style=for-the-badge&logo=telegram" alt="Telegraf Version"></a>
   <a href="https://github.com/HamzLegendz/Columbina-Base-telegram/blob/main/LICENSE"><img src="https://img.shields.io/github/license/HamzLegendz/Columbina-Base-telegram?style=for-the-badge&color=yellow" alt="License"></a>
   <img src="https://img.shields.io/badge/Status-Stable-brightgreen?style=for-the-badge" alt="Status">
