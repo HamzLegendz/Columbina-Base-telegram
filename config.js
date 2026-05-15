@@ -1,5 +1,5 @@
 // URL Thumbnail Global untuk Menu
-global.thumb = 'https://cdn.ypnk.biz.id/yp/xzyy1549.jpg';
+global.thumb = 'https://o.uguu.se/lHpqvRgK.jpg';
 // url telegram owner nya
 global.tme = 'https://t.me/skyvoidwalker';
 // Token Bot dari @BotFather
