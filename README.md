@@ -42,7 +42,7 @@ Columbina-Base-telegram is a powerful and modular boilerplate designed to accele
 ## Getting Started
 
 ### 1. Prerequisites
-- **Node.js**: v18.x or higher
+- **Node.js**: v20.x or higher ( recommended )
 - **Git**: For cloning the repository
 
 ### 2. Installation
